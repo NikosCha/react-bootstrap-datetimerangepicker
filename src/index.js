@@ -3,26 +3,27 @@ import $ from 'jquery';
 import 'bootstrap-daterangepicker';
 import getOptions from './getOptions';
 
+var PropTypes = require('prop-types');
+
 let events = ['Show', 'Hide', 'ShowCalendar', 'HideCalendar', 'Apply', 'Cancel'];
 
 class DatetimeRangePicker extends React.Component {
 
   static propTypes = {
 
-    startDate: React.PropTypes.any,
-    endDate: React.PropTypes.any,
-    children: React.PropTypes.any,
-    className: React.PropTypes.string,
-    style: React.PropTypes.object,
-
-    callback: React.PropTypes.func,
-    onEvent: React.PropTypes.func,
-    onShow: React.PropTypes.func,
-    onHide: React.PropTypes.func,
-    onShowCalendar: React.PropTypes.func,
-    onHideCalendar: React.PropTypes.func,
-    onApply: React.PropTypes.func,
-    onCancel: React.PropTypes.func,
+    startDate:PropTypes.any,
+    endDate: PropTypes.any,
+    children: PropTypes.any,
+    className: PropTypes.string,
+    style: PropTypes.object,
+    callback: PropTypes.func,
+    onEvent: PropTypes.func,
+    onShow: PropTypes.func,
+    onHide: PropTypes.func,
+    onShowCalendar: PropTypes.func,
+    onHideCalendar: PropTypes.func,
+    onApply: PropTypes.func,
+    onCancel: PropTypes.func
   };
 
   static defaultProps = {};
