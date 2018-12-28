@@ -12,7 +12,7 @@ This date range picker component for Bootstrap creates a dropdown menu from whic
 
 Base on [bootstrap-daterangepicker](https://github.com/dangrossman/bootstrap-daterangepicker)
 
-Fork of https://www.npmjs.com/package/react-bootstrap-datetimerangepicker 
+Fork of https://www.npmjs.com/package/react-bootstrap-datetimerangepicker
 
 ## Features
 
@@ -32,10 +32,7 @@ Using official `bootstrap-daterangepicker`
 
 ```sh
 # <2.0
-npm install react-bootstrap-datetimerangepicker onefe-bootstrap-daterangepicker --save
-
-# 2.x
-npm install react-bootstrap-datetimerangepicker bootstrap-daterangepicker --save
+npm install react-bootstrap-datetimerangepicker-edited
 ```
 
 ```js
@@ -51,7 +48,7 @@ import 'bootstrap-daterangepicker/daterangepicker.css';
 ## Installation
 
 ```
-npm install react-bootstrap-datetimerangepicker bootstrap-daterangepicker --save
+npm install react-bootstrap-datetimerangepicker-edited  --save
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-datetimerangepicker-edited",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Fork of https://www.npmjs.com/package/react-bootstrap-datetimerangepicker with the bug of PropTypes fixed.",
   "main": "lib/index.js",
   "scripts": {
